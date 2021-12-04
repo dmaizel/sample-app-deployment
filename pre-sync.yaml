@@ -4,6 +4,7 @@ metadata:
   name: before
   annotations:
     argocd.argoproj.io/hooks: PreSync
+    argocd.argoproj.io/hook-delete-policy: HookSucceeded
 spec:
   template:
     spec:
